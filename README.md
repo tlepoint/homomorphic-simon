@@ -1,6 +1,5 @@
-A proof-of-concept implementation of the homomorphic evaluation of SIMON
-Using FV and YASHE leveled homomorphic cryptosystems
-========================================================================
+A proof-of-concept implementation of the homomorphic evaluation of SIMON using FV and YASHE leveled homomorphic cryptosystems
+=============================================================================================================================
 
 This is a proof-of-concept implementation of a homomorphic Simon encryption
 using YASHE and FV leveled homomorphic cryptosystems. This implementation is
@@ -16,7 +15,7 @@ versions >= 2.4. We only tested for FLINT compiles with GMP and not MPIR.
 
 
 WARNING
-=======
+-------
 
 This academic implementation is NOT to be used, not to be considered secured
 nor pretty code. However we publish it under license CeCILL as a way to
@@ -24,8 +23,8 @@ support code-sharing and to allow the community to verify easily both the
 correctness and the efficiency of this homomorphic evaluation.
 
 
-HOW TO USE
-==========
+HOW TO USE?
+-----------
 
 Modify the Makefile accordingly and type:
 
