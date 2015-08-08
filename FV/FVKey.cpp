@@ -227,7 +227,7 @@ FVKey::FVKey(const struct FVParams& params, bool batch)
         }
     } 
 
-    *b = (-((*a)*(*s)%(*phi)))+e;
+    *b = -((*a)*(*s)%(*phi)+e);
 
 
     // Create evaluation key
